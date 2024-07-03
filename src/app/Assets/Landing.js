@@ -44,7 +44,7 @@ function Landing() {
       </div>
       <div className='profile flex flex-col h-fit  md:flex-row md:justify-evenly items-center pt-10'>
         <div className='profile-img size-[50%] md:size-[30%] m-5' >
-          <Image src={profilepic} className=''></Image>
+          <Image src={profilepic} alt='profile-pic' className=''></Image>
         </div>
         <div className='profile-content w-fit md:size-2/4  flex flex-col gap-4 items-center font-semibold text-gray-600 '>
           <h1 className=' text-xl md:text-3xl'>Hello I'm</h1>
