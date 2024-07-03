@@ -5,7 +5,7 @@ import About from "./Assets/About";
 
 export default function page() {
   return (
-    <main className=" bg-white w-screen " >
+    <main className=" bg-white w-full overflow-hidden " >
       <Landing />
       <About />
     </main>
