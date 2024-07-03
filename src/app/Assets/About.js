@@ -5,7 +5,7 @@ import educationicon from '../../../public/educationicon.png'
 
 function About() {
   return (
-    <div className=' h-screen w-screen'>
+    <div className=' h-screen w-full'>
         <div className=' title flex flex-col gap-1 w-full h-[10%] md:h-[13%] justify-end'>
             <h2 className=' text-gray-600 text-md xl:text-xl text-center'>Get To Know More</h2>
             <h1 className=' text-black text-3xl xl:text-5xl font-semibold text-center'>About Me</h1>

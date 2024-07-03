@@ -6,7 +6,7 @@ import profilepic from '../../../public/profilepic.png';
 
 function Landing() {
   return (
-    <div className=' h-screen w-screen'>
+    <div className=' h-screen w-full'>
       <div className="navbar text-black p-10">
         <div className="navbar-start">
           <a className="btn btn-ghost text-2xl lg:4xl">MAK</a>
