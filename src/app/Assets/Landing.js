@@ -42,11 +42,11 @@ function Landing() {
           </ul>
         </div>
       </div>
-      <div className='profile  flex flex-col h-5/6 md:flex-row md:justify-evenly items-center pt-[2%] md:pt-0 justify-stretch'>
+      <div className='profile  flex flex-col h-5/6 md:flex-row md:justify-evenly items-center pt-[2%] md:pt-0'>
         <div className='profile-img size-[60%] sm:size-fit h-fit  my-[2%] flex flex-col' >
           <Image src={profilepic} alt='profile-pic' className='self-center sm:size-[60%] xl:size-[80%] '></Image>
         </div>
-        <div className='profile-content h-fit w-fit md:size-2/4  flex flex-col gap-4 items-center justify-center font-semibold text-gray-600 '>
+        <div className='profile-content h-fit w-fit md:size-2/4 flex flex-col gap-4 items-center font-semibold text-gray-600 '>
           <h1 className=' text-xl md:text-3xl'>Hello I'm</h1>
           <h1 className=' text-4xl md:text-6xl text-black'>Arjun Krishna</h1>
           <h1 className=' text-2xl md:text-4xl'>Frontend Developer</h1>
