@@ -7,7 +7,7 @@ import profilepic from '../../../public/profilepic.png';
 function Landing() {
   return (
     <div className=' h-screen w-screen  flex flex-col'>
-      <div className="navbar w-full text-black p-10 md:pb-0">
+      <div className="navbar w-full text-black px-10 pt-10 md:pt-5 lg:pt-3 md:pb-0">
         <div className="navbar-start">
           <a className="btn btn-ghost text-2xl lg:4xl">MAK</a>
         </div>
@@ -43,13 +43,13 @@ function Landing() {
         </div>
       </div>
       <div className='profile  flex flex-col h-5/6 md:flex-row md:justify-evenly items-center pt-[2%] md:pt-0'>
-        <div className='profile-img size-[60%] sm:size-fit h-fit  my-[2%] flex flex-col' >
-          <Image src={profilepic} alt='profile-pic' className='self-center sm:size-[60%] xl:size-[80%] '></Image>
+        <div className='' >
+          <Image src={profilepic} alt='profile-pic' className='size-[300px] md:size-[350px] xl:size-[480px] 2xl:size-[550px] m-[10px]'></Image>
         </div>
-        <div className='profile-content h-fit w-fit md:size-2/4 flex flex-col gap-4 items-center font-semibold text-gray-600 '>
-          <h1 className=' text-xl md:text-3xl'>Hello I'm</h1>
-          <h1 className=' text-4xl md:text-6xl text-black'>Arjun Krishna</h1>
-          <h1 className=' text-2xl md:text-4xl'>Frontend Developer</h1>
+        <div className='profile-content h-fit w-fit md:size-2/4 flex flex-col gap-4 items-center justify-center font-semibold text-gray-600 '>
+          <h1 className=' text-xl lg:text-3xl'>Hello I'm</h1>
+          <h1 className=' text-4xl lg:text-6xl text-black'>Arjun Krishna</h1>
+          <h1 className=' text-2xl lg:text-4xl'>Frontend Developer</h1>
           <div className='profile-buttons w-fit p-5'>
             <button className=' btn btn-md btn-outline hover:bg-black hover:text-white text-black rounded-full text-base m-1'>Download CV</button>
             <button className=' btn btn-md text-white rounded-full text-base m-1'>Contact Info</button>

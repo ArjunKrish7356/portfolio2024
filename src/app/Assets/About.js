@@ -12,7 +12,7 @@ function About() {
         </div>
         <div className='About-outer h-5/6 w-auto md:flex md:items-center'>
             <div className='About-img flex flex-col w-full p-5 h-fit'>
-                <Image src={AboutPic} alt='profilepic-2' className=' size-[60%] md:size-[75%] self-center rounded-3xl'></Image>
+                <Image src={AboutPic} alt='profilepic-2' className='size-[300px] md:size-[350px] xl:size-[480px] 2xl:size-[550px] m-[10px] self-center rounded-3xl'></Image>
             </div>
             <div className='About-content gap-5 flex flex-col  w-[100%] h-fit md:p-10'>
                 <div className=' w-[90%] h-fit flex flex-col rounded-xl border border-black self-center p-5 '>
