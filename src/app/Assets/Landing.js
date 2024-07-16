@@ -7,9 +7,9 @@ import profilepic from '../../../public/profilepic.png';
 function Landing() {
   return (
     <div className=' h-screen w-screen  flex flex-col'>
-      <div className="navbar w-full text-black px-10 pt-[3%] pb-0 sm:pt-0 md:pb-0">
+      <div className="navbar w-full text-black px-10 pt-[1%] pb-0">
         <div className="navbar-start">
-          <a className="btn btn-ghost text-2xl lg:4xl">MAK</a>
+          <a className="btn btn-ghost text-2xl lg:text-4xl">MAK</a>
         </div>
         <div className=' navbar-end'>
           <div className="dropdown dropdown-bottom dropdown-end ">
@@ -29,20 +29,20 @@ function Landing() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              className="menu menu-sm dropdown-content bg-white rounded-box z-[1] mt-3 w-[50vw] p-2 shadow gap-3">
               <li><a>Item 1</a></li>
               <li><a>Item 3</a></li>
             </ul>
           </div>
         </div>
         <div className="navbar-center hidden md:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal px-1 lg:text-xl">
             <li><a>Item 1</a></li>
             <li><a>Item 3</a></li>
           </ul>
         </div>
       </div>
-      <div className='profile  flex flex-col h-fit md:flex-row md:justify-evenly items-center p-0 md:pt-0'>
+      <div className='profile  flex flex-col h-fit md:flex-row md:justify-evenly items-center p-0  grow'>
         <div className='' >
           <Image src={profilepic} alt='profile-pic' className='size-[280px] lg:size-[350px] xl:size-[480px] 2xl:size-[550px] mt-[20px] mb-[20px] sm:m-0'></Image>
         </div>

@@ -5,7 +5,7 @@ import Image from 'next/image'
 function Experience() {
   return (
     <div className='  h-fit sm:h-[100vh] w-full flex flex-col items-center text-black'>
-       <div className='  title flex flex-col gap-1 sm:gap-0 w-full h-[10vh] sm:h-[14%] md:h-[13%]  lg:h-[12%] 2xl:h-[10%] justify-end'>
+       <div className='  title flex flex-col gap-1 sm:gap-0 w-full h-[10vh] sm:h-[14%] md:h-[13%]  lg:h-[12%] 2xl:h-[10%] justify-end mb-[2%]'>
             <h2 className=' text-gray-600 text-md sm:text-xs md:text-sm lg:text-base xl:text-xl text-center'>Explore my</h2>
             <h1 className=' text-black text-3xl sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl font-semibold text-center'>Experience</h1>
         </div> 
