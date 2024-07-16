@@ -7,7 +7,7 @@ import profilepic from '../../../public/profilepic.png';
 function Landing() {
   return (
     <div className=' h-screen w-screen  flex flex-col'>
-      <div className="navbar w-full text-black px-10 pt-10 sm:pt-0 md:pb-0">
+      <div className="navbar w-full text-black px-10 pt-[3%] pb-0 sm:pt-0 md:pb-0">
         <div className="navbar-start">
           <a className="btn btn-ghost text-2xl lg:4xl">MAK</a>
         </div>
@@ -42,9 +42,9 @@ function Landing() {
           </ul>
         </div>
       </div>
-      <div className='profile  flex flex-col h-5/6 md:flex-row md:justify-evenly items-center pt-[2%] md:pt-0'>
+      <div className='profile  flex flex-col h-fit md:flex-row md:justify-evenly items-center p-0 md:pt-0'>
         <div className='' >
-          <Image src={profilepic} alt='profile-pic' className='size-[280px] lg:size-[350px] xl:size-[480px] 2xl:size-[550px] m-[50px] sm:m-0'></Image>
+          <Image src={profilepic} alt='profile-pic' className='size-[280px] lg:size-[350px] xl:size-[480px] 2xl:size-[550px] mt-[20px] mb-[20px] sm:m-0'></Image>
         </div>
         <div className='profile-content h-fit w-fit md:size-2/4 flex flex-col gap-4 items-center justify-center font-semibold text-gray-600 '>
           <h1 className=' text-xl lg:text-3xl'>Hello I'm</h1>

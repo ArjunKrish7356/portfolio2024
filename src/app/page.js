@@ -8,9 +8,9 @@ export default function page() {
   return (
     <main className=" bg-white w-full overflow-hidden " >
       <Landing />
-      <About />
+      <About /> 
       <Experience />
-    </main>
+    </main>    
   )
 }
 
