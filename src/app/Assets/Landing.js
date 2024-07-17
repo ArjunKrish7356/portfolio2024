@@ -6,7 +6,7 @@ import profilepic from '../../../public/profilepic.png';
 
 function Landing() {
   return (
-    <div className=' h-screen w-screen  flex flex-col'>
+    <div className='w-screen min-h-screen flex flex-col'>
       <div className="navbar w-full text-black px-10 pt-[1%] pb-0">
         <div className="navbar-start">
           <a className="btn btn-ghost text-2xl lg:text-4xl">MAK</a>
@@ -42,7 +42,7 @@ function Landing() {
           </ul>
         </div>
       </div>
-      <div className='profile  flex flex-col h-fit md:flex-row md:justify-evenly items-center p-0  grow'>
+      <div className='profile justify-center  flex flex-col h-fit md:flex-row md:justify-evenly items-center p-0  grow'>
         <div className='' >
           <Image src={profilepic} alt='profile-pic' className='size-[280px] lg:size-[350px] xl:size-[480px] 2xl:size-[550px] mt-[20px] mb-[20px] sm:m-0'></Image>
         </div>
@@ -50,7 +50,7 @@ function Landing() {
           <h1 className=' text-xl lg:text-3xl'>Hello I'm</h1>
           <h1 className=' text-4xl lg:text-6xl text-black'>Arjun Krishna</h1>
           <h1 className=' text-2xl lg:text-4xl'>Frontend Developer</h1>
-          <div className='profile-buttons w-fit p-5'>
+          <div className='profile-buttons  w-fit '>
             <button className=' btn btn-md btn-outline hover:bg-black hover:text-white text-black rounded-full text-base m-1'>Download CV</button>
             <button className=' btn btn-md text-white rounded-full text-base m-1'>Contact Info</button>
           </div>
