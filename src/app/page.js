@@ -8,7 +8,7 @@ import Contact from "./Assets/Contact";
 
 export default function page() {
   return (
-    <main className=" bg-white w-full overflow-hidden " >
+    <main className=" bg-white w-full overflow-hidden" >
      <Landing />
       <About /> 
       <Experience /> 
