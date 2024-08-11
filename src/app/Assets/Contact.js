@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import linkedin from "../../../public/linkedin.png"
 import email from '../../../public/email.png'
+import Link from 'next/link'
 
 function Contact() {
   return (
@@ -12,14 +13,14 @@ function Contact() {
         </div>
         <div className='Contact-Contents p-5 grid justify-items-center'>
             <div className='Mail&Linkedin w-fit border border-black rounded-3xl grid sm:grid-cols-2 gap-2 p-5 text-black justify-items-center font-semibold text-lg sm:text-sm lg:text-xl xl:text-2xl'>
-                <a className=' flex w-fit gap-2 items-center'>
+                <div className=' flex w-fit gap-2 items-center'>
                     <Image className=' size-8' src={linkedin}/>
-                    <p className=' text-base lg:text-lg'>MyLinkedin</p>
-                </a>
-                <a className=' flex w-fit gap-2 items-center'>
+                    <Link href='https://www.linkedin.com/in/m-arjun-krishna-5b924b256?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' className=' text-base lg:text-lg'>MyLinkedin</Link>
+                </div>
+                <div className=' flex w-fit gap-2 items-center'>
                     <Image className=' size-10' src={email}/>
                     <a href="mailto:arjunkrishna7356@gmail.com" className=' text-base lg:text-lg'>arjunkrishna7356@gmail.com</a>
-                </a>
+                </div>
             </div>
             <div className='tags grid sm:grid-flow-col justify-items-center p-10 gap-5 lg:gap-10 text-black text-lg lg:text-xl xl:text-2xl'>
             <a href="#about">About</a>

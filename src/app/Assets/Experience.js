@@ -34,6 +34,16 @@ function Experience() {
                 <h1 className=' col-span-2 sm:text-sm lg:text-lg xl:text-2xl'>DaisyUI</h1>
                 <h1 className=' col-span-2 sm:text-sm lg:text-lg xl:text-2xl'>Experienced</h1>
               </article>
+              <article className=' grid grid-cols-3 grid-rows-2 max-w-fit gap-x-3 h-fit'> 
+                <Image className='w-fit row-span-2 col-span-1  size-[50px] sm:size-[30px] lg:size-[40px] justify-self-end' src={checkmark} alt="checkmark icon"></Image>
+                <h1 className=' col-span-2 sm:text-sm lg:text-lg xl:text-2xl'>NodeJS</h1>
+                <h1 className=' col-span-2 sm:text-sm lg:text-lg xl:text-2xl'>Experienced</h1>
+              </article>
+              <article className=' grid grid-cols-3 grid-rows-2 max-w-fit gap-x-3 h-fit'> 
+                <Image className='w-fit row-span-2 col-span-1  size-[50px] sm:size-[30px] lg:size-[40px] justify-self-end' src={checkmark} alt="checkmark icon"></Image>
+                <h1 className=' col-span-2 sm:text-sm lg:text-lg xl:text-2xl'>PostgreSQL</h1>
+                <h1 className=' col-span-2 sm:text-sm lg:text-lg xl:text-2xl'>Experienced</h1>
+              </article>
             </div>
           </div>
           <div className=' h-fit w-[90%] sm:w-fit p-5  border border-black rounded-3xl  flex flex-col items-center'>

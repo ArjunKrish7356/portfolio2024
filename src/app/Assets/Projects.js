@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import project2 from '../../../public/project2.png'
 import project1 from '../../../public/project1.png'
+import rustproj from '../../../public/rustproj.png'
+import Link from 'next/link'
 
 function Projects() {
   return (
@@ -20,11 +22,11 @@ function Projects() {
               </div>
             </div>
             <div className='h-fit sm:w-fit  grid gap-3 lg:gap-4 xl:gap-6 p-5 border border-black rounded-3xl overflow-hidden justify-items-center'>
-              <Image className=' rounded-3xl justify-self-center sm:size-[200px] lg:size-[300px] xl:size-[400px]' src={project1}></Image>
-              <h1 className=' w-fit  text-xl font-semibold sm:text-sm lg:text-lg xl:text-2xl'>Project Two</h1>
+              <Image className=' rounded-3xl justify-self-center sm:size-[200px] lg:size-[300px] xl:size-[400px]' src={rustproj}></Image>
+              <h1 className=' w-fit  text-xl font-semibold sm:text-sm lg:text-lg xl:text-2xl'>DNS server with RUST</h1>
               <div className=' w-fit h-fit flex justify-evenly gap-2 lg:gap-4'>
-                <button className=' btn btn-md sm:max-lg:btn-sm xl:btn-lg btn-outline hover:bg-black hover:text-white text-black rounded-full text-base sm:text-sm xl:text-xl'>Github</button>
-                <button className=' btn btn-md sm:max-lg:btn-sm xl:btn-lg  btn-outline hover:bg-black hover:text-white text-black rounded-full text-base sm:text-sm xl:text-xl'>Live Demo</button>
+                <Link href='https://github.com/ArjunKrish7356/DNSserver' className=' btn btn-md sm:max-lg:btn-sm xl:btn-lg btn-outline hover:bg-black hover:text-white text-black rounded-full text-base sm:text-sm xl:text-xl'>Github</Link>
+                
               </div>
             </div>
             <div className='h-fit sm:w-fit  grid gap-3 lg:gap-4 xl:gap-6 p-5 border border-black rounded-3xl overflow-hidden justify-items-center sm:max-lg:col-span-2'>
